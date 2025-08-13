@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>John Doe's Web Portfolio</title>
+</head>
+<body>
+    <center>
+    <h1>John Doe's Web Portfolio</h1>
+    <p><i>Showcasing HTML Skills using Tables</i></p>
+    <p>
+        <a href="#about">About</a> | 
+        <a href="#skills">Skills</a> | 
+        <a href="#projects">Projects</a> | 
+        <a href="#contact">Contact</a>
+    </p>
+    </center>
+    <hr>
+
+    <table border="2">
+        <tr>
+            <td colspan="2" id="about">
+                <h3>About Me</h3>
+                Hello! I'm <b>John Doe</b>, a passionate web developer. I love building semantic, accessible, and responsive websites using core web technologies.
+                <br>I specialize in front-end development, especially HTML, CSS, and JavaScript.
+                <img src="john_doe.jpg" alt="John Doe Photo" width="150" style="float:right; margin-left:10px;">
+            </td>
+        </tr>
+        <tr>
+            <td id="skills" width="50%">
+                <h3>Skills 💻</h3>
+                <ul>
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                <b>Skill Levels</b>
+                <table border="1">
+                    <tr><th>Skill</th><th>Level</th></tr>
+                    <tr><td>HTML</td><td>Expert</td></tr>
+                    <tr><td>CSS</td><td>Advanced</td></tr>
+                    <tr><td>JavaScript</td><td>Intermediate</td></tr>
+                </table>
+            </td>
+            <td id="projects" width="50%">
+                <h3>Projects 🚀</h3>
+                <ol>
+                    <li><b>Portfolio Website</b> – My personal portfolio built using pure HTML.</li>
+                    <li><b>Todo App</b> – A task management tool with vanilla JavaScript.</li>
+                    <li><b>Weather App</b> – A real-time weather dashboard using APIs.</li>
+                </ol>
+                <b>Screenshot</b><br>
+                <img src="a.jpg" alt="Project Preview" width="150">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="contact">
+                <center>
+                <h3>Contact Me 📧</h3>
+                <form>
+                    <p>
+                        Full Name: <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        Email: <input type="email" name="email">
+                    </p>
+                    <p>
+                        Gender:
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </p>
+                    <p>
+                        Services Interested:
+                        <input type="checkbox" name="service" value="Web Design"> Web Design
+                        <input type="checkbox" name="service" value="SEO"> SEO
+                    </p>
+                    <p>
+                        Country:
+                        <select name="country">
+                            <option value="USA">USA</option>
+                            <option value="India">India</option>
+                            <option value="UK">UK</option>
+                        </select>
+                    </p>
+                    <p>
+                        Message:<br>
+                        <textarea name="message" rows="4" cols="30"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                    </p>
+                </form>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="no-border" style="text-align:center;">
+                📅 Last Updated: August 13, 2025 <br>
+                Created by <b>John Doe</b><br>
+                Email: <a href="mailto:john@example.com">john@example.com</a><br>
+                Website: <a href="http://example.com" target="_blank">example.com</a><br>
+                © 2025 John Doe. All rights reserved.
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
