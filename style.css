@@ -1,0 +1,13 @@
+
+*{
+    padding:0px;
+
+    margin:0px;
+}
+ h1{
+    border:2px solid red;
+    margin:150px;
+    padding:30px;
+    height:130px;
+    width:50%;
+}
